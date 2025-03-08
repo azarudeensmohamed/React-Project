@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap);
+body {
+    margin: 0;
+    font-family:  "Inter", sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4c4c5c;
+    text-align: var(--osen-body-text-align);
+    background-color: '#';
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+a{
+    text-decoration: none;
+}
+.auth-bg {
+    background-image: linear-gradient(135deg, #667eea 0, #764ba2 100%);
+}
+.text-muted {
+    --osen-text-opacity: 1;
+    color: #9ba6b7 !important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.border-dashed {
+    --osen-border-style: dashed;
+}
+.border-bottom {
+    border-bottom:  1px dashed #e7e9eb !important;
+}
+@media (min-width: 1500px) {
+    .m-xxl-5 {
+        margin: 4.5rem !important;
+    }
+}
+.btn-primary-2 {
+    color: #fff;
+    background-color: #103876;
+
+}
+.btn-primary-2:hover {
+    color: #fff;
+    background-color: #0d1f39;
+
+}
+.fw-semibold {
+    font-weight: 600 !important;
+    color:rgb(76, 76, 92) !important;
+}
+.mb-2 {
+    margin-bottom: .75rem !important;
+}
+@media (min-width: 1200px) {
+    .h3, h3 {
+        font-size: 1.3928565625rem;
+    }
+}
+@media (min-width: 1500px) {
+    .p-xxl-4 {
+        padding: 2.25rem !important;
+    }
+}
+@media (min-width: 1200px) {
+    .h3, h3 {
+        font-size: 1.3928565625rem;
+    }
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .5rem .77rem;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--osen-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .3rem;
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #9ba6b7;
+    opacity: 1
+}
+
+.form-control::-moz-placeholder {
+    color: #9ba6b7;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #9ba6b7;
+    opacity: 1
+}
+
+.form-control::-ms-input-placeholder {
+    color: #9ba6b7;
+    opacity: 1
+}
+
+.form-control::placeholder {
+    color: #9ba6b7;
+    opacity: 1
+}
+
+.auth-brand .logo-dark {
+    display: inline-block
+}
+
+.auth-brand .logo-light {
+    display: none
+}
+.auth-bg .card {
+    --osen-card-spacer-y: 1.5rem;
+    --osen-card-spacer-x: 1.5rem;
+    --osen-card-title-spacer-y: 0.5rem;
+    --osen-card-border-width: 0;
+    --osen-card-border-color: #e7e9eb;
+    --osen-card-border-radius: var(--osen-border-radius);
+    --osen-card-box-shadow: var(--osen-box-shadow);
+    --osen-card-inner-border-radius: calc(var(--osen-border-radius) - 0);
+    --osen-card-cap-padding-y: 1.125rem;
+    --osen-card-cap-padding-x: 1.5rem;
+    --osen-card-cap-bg: transparent;
+    --osen-card-bg: #fff;
+    --osen-card-img-overlay-padding: 1.5rem;
+    --osen-card-group-margin: 0.75rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    width:435px;
+    height: 513px;
+    color:#4c4c5c;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #e7e9eb;
+    border-radius: 0.3rem;
+}
+.position{
+    position: relative;
+}
+.eye-icon{
+    position: absolute;
+    top: 34px;
+    color: #333;
+    right: 10px;
+}
+.password-show {
+    background: #ffff;
+    color: #9ca3af;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 10px;
+    text-align: start;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.cur-pointer{
+    cursor: pointer;
+}
+.error{
+    color:red;
+    font-weight: 400;
+    padding-top: 5px;
+}
